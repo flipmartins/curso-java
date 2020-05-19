@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.mylyn.wikitext.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="org.eclipse.mylyn.wikitext.ui.editor" deleted\="false" description\="Scanner" enabled\="true" name\="entrada">Scanner entrada \= new Scanner(System.in);\n\n${cursor}\n\nentrada.close();</template></templates>

@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class While {
+
+	public static void main(String[] args) {
+		//Receber um texto e só finalizar quando for igual a "sair"
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite algo...");
+		String palavra = entrada.nextLine();
+		
+		while(!"Sair".equalsIgnoreCase(palavra)) {
+			System.out.println("Digite algo...");
+			palavra = entrada.next();
+		}
+		
+		entrada.close();
+	}
+
+}

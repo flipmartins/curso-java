@@ -1,0 +1,35 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		//Recebe uma nota valida
+		//Total, notas validas, -1 sai
+
+		String notaRecebida;
+		double media = 0.0;
+		int total = 0;
+		int contador = 0;
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		do {
+			System.out.println("Digite a nota: ");
+			notaRecebida = entrada.next();
+			int notaValida = Integer.parseInt(notaRecebida);
+			
+			if(notaValida >= 0 && notaValida <= 10) {
+				total =+ notaValida;
+				contador++;
+			}
+			
+		} while (!notaRecebida.equals("-1"));
+		
+		System.out.printf("Total de notas: %d", total);
+		
+		entrada.close();
+	}
+
+}

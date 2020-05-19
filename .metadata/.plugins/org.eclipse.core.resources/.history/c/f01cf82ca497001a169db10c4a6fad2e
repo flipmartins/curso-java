@@ -1,0 +1,17 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class Consoloe {
+
+	public static void main(String[] args) {
+		System.out.print("Digite o seu nome: ");
+		
+		Scanner entrada = new Scanner(System.in);
+		entrada.nextLine();
+		
+		System.out.println("Olá, " + entrada);
+		entrada.close();
+	}
+
+}
