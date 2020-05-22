@@ -1,0 +1,24 @@
+package controleExercicios;
+
+import java.util.Scanner;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		//Criar um programa que receba um número e diga se ele é um número primo.
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite um número inteiro: ");
+		int numero = entrada.nextInt();
+		
+		for (int i = 1; i <= numero; i++) {
+			if(numero % i != 0) {
+				System.out.println(i);
+			}
+		}
+		
+		entrada.close();
+
+	}
+
+}

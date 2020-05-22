@@ -1,0 +1,20 @@
+package controleExercicios;
+
+import java.util.Scanner;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		//Criar um programa que enquanto estiver recebendo números positivos, 
+		//imprime no console a soma dos números inseridos, caso receba um número negativo, encerre o programa. 
+		//Tente utilizar a estrutura do while.
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite um número: ");
+		
+		
+		entrada.close();
+
+	}
+
+}

@@ -6,4 +6,11 @@
 			<item value="if(trabalhoTerca == true &amp;&amp; trabalhoQuinta == true &amp;&amp; sorvete == true) {"/>
 		</list>
 	</section>
+	<section name="org.eclipse.ui.texteditor.templates.TemplatePreferencePage$EditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="16"/>
+		<item key="DIALOG_Y_ORIGIN" value="74"/>
+		<item key="DIALOG_WIDTH" value="660"/>
+		<item key="DIALOG_HEIGHT" value="290"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
 </section>
