@@ -1,0 +1,23 @@
+package array;
+
+import java.util.Arrays;
+
+public class ExercicioForEach {
+
+	public static void main(String[] args) {
+		
+		double[] notasAlunosA = new double[4];
+		System.out.println(Arrays.toString(notasAlunosA));
+
+		notasAlunosA[0] = 7.9;
+		notasAlunosA[1] = 8;
+		notasAlunosA[2] = 6.7;
+		notasAlunosA[3] = 9.7;
+
+		for(double notas : notasAlunosA) {
+			System.out.println(notas);
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package classe;
+
+public class Produto {
+
+	String nome;
+	double preco;
+	double desconto;
+	
+	//Não precisa receber nada de parametro pq o objeto já tem os dados
+	double precoComDesconto() {
+		return preco - (1 - desconto);
+	}
+}

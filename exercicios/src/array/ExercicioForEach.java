@@ -1,0 +1,21 @@
+package array;
+
+public class ExercicioForEach {
+
+	public static void main(String[] args) {
+		
+		double[] notasAlunosA = new double[4];
+
+		notasAlunosA[0] = 7.9;
+		notasAlunosA[1] = 8;
+		notasAlunosA[2] = 6.7;
+		notasAlunosA[3] = 9.7;
+
+		//Foreach
+		for(double notas : notasAlunosA) {
+			System.out.println(notas);
+		}
+
+	}
+
+}

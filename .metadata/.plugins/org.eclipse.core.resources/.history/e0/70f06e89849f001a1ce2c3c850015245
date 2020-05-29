@@ -1,0 +1,18 @@
+package classe.desafio;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa();
+		Comida c1 = new Comida("Carne", 1.0);
+		
+		p1.nome = "Felipe";
+		p1.peso = 80.0;
+		
+		double pesoJantar = p1.Comer(c1);
+		double pesoAtual = pesoJantar + p1.peso;
+		System.out.printf("O peso após comer %s é: %.2f Kg", c1.nome.toLowerCase(), pesoAtual);
+	}
+
+}

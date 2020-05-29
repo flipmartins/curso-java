@@ -1,0 +1,15 @@
+package array;
+
+public class DesafioArrays {
+
+	public static void main(String[] args) {
+		//Perguntar quantas notas serão inseridas
+		//Receber as notas usando for
+		//Exibir as notas usando foreach
+		//Somar as notas e exibir a média
+		
+		
+
+	}
+
+}

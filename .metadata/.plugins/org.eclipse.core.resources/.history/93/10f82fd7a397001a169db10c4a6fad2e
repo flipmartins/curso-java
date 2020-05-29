@@ -1,9 +1,0 @@
-package fundamentos;
-
-public class Consoloe {
-
-	public static void main(String[] args) {
-		System.out.println("");
-	}
-
-}

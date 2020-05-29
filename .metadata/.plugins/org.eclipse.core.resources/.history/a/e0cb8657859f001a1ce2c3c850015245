@@ -1,0 +1,14 @@
+package classe.desafio;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa("Felipe", 80.0);
+		Comida c1 = new Comida("Carne", 1.0);
+		
+		p1.Comer(c1);
+		
+	}
+
+}

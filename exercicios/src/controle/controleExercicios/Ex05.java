@@ -1,0 +1,53 @@
+package controle.controleExercicios;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		//Jogo da adivinhação: Tentar adivinhar um número entre 0 - 100. 
+		//Armazene um numero aleatório em uma variável. O Jogador tem 10 tentativas para adivinhar o número gerado. 
+		//Ao final de cada tentativa, imprima a quantidade de tentativas restantes, e imprima se o número inserido é maior 
+		//ou menor do que o número armazenado.
+		
+		Random random = new Random();
+		int numero = random.nextInt(10);
+		System.out.println(numero);
+		
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite o seu palpite, você tem 10 chances para acertar o número sorteado!");
+		int palpite = entrada.nextInt();
+		
+		int tentativas = 10;
+		
+		for (int i = 1; i <= 10 || palpite != numero; i++) {
+			if(palpite != numero) {
+				if(palpite < numero) {
+					tentativas--;
+					System.out.println("Você errou. O número sorteado é maior...");
+					System.out.println("Você tem " + tentativas + " tentativa(s).");
+				} else {
+					tentativas--;
+					System.out.println("Você errou. O número sorteado é menor...");
+					System.out.println("Você tem " + tentativas + " tentativa(s).");
+				}
+				
+				if(tentativas == 0) {
+					System.out.println("Game over!");
+					break;
+				} else {
+					System.out.println("Digite o palpite novamente: ");
+					palpite = entrada.nextInt();
+				}
+				
+			} else {
+				System.out.println("Você acertou!!!");
+				break;
+			}
+		}
+		
+		entrada.close();
+	}
+
+}

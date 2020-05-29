@@ -1,0 +1,13 @@
+package classe;
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	double Comer(Comida com) {
+		com.pesoComida = com;
+		
+		
+	}
+}

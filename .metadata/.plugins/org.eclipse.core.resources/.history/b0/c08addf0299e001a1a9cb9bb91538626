@@ -1,0 +1,16 @@
+package classe;
+
+public class Data {
+
+	int dia;
+	int mes;
+	int ano;
+	
+	String dataFormatada(int dia, int mes, int ano) {
+		String diaFormatado = Integer.toString(dia);
+		String mesFormatado = Integer.toString(mes);
+		String anoFormatado = Integer.toString(ano);
+		
+		return diaFormatado.concat("/") + mesFormatado.concat("/") + anoFormatado;
+	}
+}
